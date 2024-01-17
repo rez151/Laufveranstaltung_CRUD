@@ -70,8 +70,8 @@ public class Laufveranstaltung {
     return startgebuehr;
   }
 
-  public void setStartgebühr(double startgebühr) {
-    this.startgebuehr = startgebühr;
+  public void setStartgebuehr(double startgebuehr) {
+    this.startgebuehr = startgebuehr;
   }
 
   public int getGemeldeteTeilnehmer() {

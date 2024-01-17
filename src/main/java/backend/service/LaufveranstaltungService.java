@@ -35,7 +35,7 @@ public class LaufveranstaltungService {
       existingLaufveranstaltung.setName(updatedLaufveranstaltung.getName());
       existingLaufveranstaltung.setDistanz(updatedLaufveranstaltung.getDistanz());
       existingLaufveranstaltung.setTermin(updatedLaufveranstaltung.getTermin());
-      existingLaufveranstaltung.setStartgebühr(updatedLaufveranstaltung.getStartgebuehr());
+      existingLaufveranstaltung.setStartgebuehr(updatedLaufveranstaltung.getStartgebuehr());
       existingLaufveranstaltung.setGemeldeteTeilnehmer(updatedLaufveranstaltung.getGemeldeteTeilnehmer());
       laufveranstaltungRepository.save(existingLaufveranstaltung);
     }
